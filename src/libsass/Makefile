@@ -1,5 +1,5 @@
 OS       ?= $(shell uname -s)
-CC       ?= gcc
+CC       = gcc
 CXX      ?= g++
 RM       ?= rm -f
 CP       ?= cp -a
