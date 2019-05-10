@@ -240,7 +240,7 @@ lib/libsass.dll: lib $(COBJECTS) $(OBJECTS) $(RCOBJECTS)
 	$(CXX) -shared $(LDFLAGS) -o $@ $(COBJECTS) $(OBJECTS) $(RCOBJECTS) $(LDLIBS) -s -Wl,--subsystem,windows,--out-implib,lib/libsass.a
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c -o $@ $<
+	gcc $(CFLAGS) -c -o $@ $<
 
 %.o: %.rc
 	$(WINDRES) -i $< -o $@
