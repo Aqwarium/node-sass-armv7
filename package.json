@@ -20,7 +20,8 @@
   },
   "main": "lib/index.js",
   "nodeSassConfig": {
-    "binarySite": "https://github.com/sass/node-sass/releases/download"
+    "binarySite": "https://github.com/sass/node-sass/releases/download",
+    "binaryDir": "/volume1/Maison
   },
   "bin": {
     "node-sass": "bin/node-sass"
